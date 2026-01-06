@@ -27,6 +27,7 @@ export const PROPERTY_TYPES = [
     { value: 'mustakil', label: 'Müstakil Ev' },
     { value: 'site', label: 'Site / Apartman' },
     { value: 'isyeri', label: 'İşyeri / Fabrika' },
+    { value: 'arsa', label: 'Arsa / Tarla' },
 ] as const
 
 // Roof types

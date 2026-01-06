@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import { AnimatedCounter } from '@/components/animated-counter'
 import { Card, CardContent } from '@/components/ui/card'
 import {
   Accordion,
@@ -149,32 +150,7 @@ export default function HomePage() {
       </section>
 
       {/* Stats / Social Proof */}
-      <section className="py-20 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold">Güvenilir Bir Platform</h2>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-primary">50+</div>
-              <p className="text-sm text-muted-foreground mt-2">Doğrulanmış Firma</p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-primary">81</div>
-              <p className="text-sm text-muted-foreground mt-2">İl Kapsama</p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-primary">500+</div>
-              <p className="text-sm text-muted-foreground mt-2">Mutlu Müşteri</p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-primary">%100</div>
-              <p className="text-sm text-muted-foreground mt-2">Ücretsiz Hizmet</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <AnimatedCounter />
 
       {/* Testimonials Placeholder */}
       <section className="py-20">
